@@ -1,0 +1,152 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Collection — Flint & Teal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background: #F4F1EC;
+      color: #2B2B2B;
+      font-family: 'Inter', sans-serif;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      font-family: 'Libre Baskerville', serif;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #4A3F35;
+      font-size: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 40px;
+      padding: 60px;
+    }
+
+    .item {
+      text-align: center;
+    }
+
+    .item img {
+      width: 100%;
+      border: 10px solid #EFEAE2;
+    }
+
+    .item a {
+      display: inline-block;
+      margin-top: 15px;
+      font-family: 'Libre Baskerville', serif;
+      text-decoration: none;
+      color: #4A3F35;
+      border-bottom: 1px solid #B08D57;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>The Collection</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="collection.html">The Collection</a>
+  </nav>
+</header>
+
+<div class="grid">
+  <div class="item">
+    <img src="print1.jpg" alt="Pheasant Wall">
+    <p>Pheasant Wall</p>
+    <a href="https://www.etsy.com/uk/listing/4423251271/pheasant-wall-art-oil-painting-style?ref=shop_home_active_3&frs=1&crt=1&logging_key=2c3028e00bc9ad48b5592309dcf660b1560d97fa%3A4423251271" target="_blank">Purchase on Etsy</a>
+  </div>
+
+  <div class="item">
+    <img src="print2.jpg" alt="British Countryside Hunting">
+    <p>British Countryside Hunting</p>
+    <a href="https://www.etsy.com/uk/listing/4397546542/british-countryside-hunting-print?ref=shop_home_feat_3&frs=1&logging_key=81c68fcf9a01d60f869d351b973c198fa9bf080d%3A4397546542" target="_blank">Purchase on Etsy</a>
+  </div>
+
+  <div class="item">
+    <img src="print3.jpg" alt="Vintage Hunting Scene / Land Rover">
+    <p>Vintage Hunting Scene / Land Rover</p>
+    <a href="https://www.etsy.com/uk/listing/4397545193/vintage-hunting-scene-print-land-rover?ref=shop_home_active_12&frs=1&crt=1&logging_key=df7a166116aba6661cd1e387438178f4516c4005%3A4397545193" target="_blank">Purchase on Etsy</a>
+  </div>
+
+  <div class="item">
+    <img src="print4.jpg" alt="The Country Landy">
+    <p>The Country Landy</p>
+    <a href="https://www.etsy.com/uk/listing/4399993836/british-countryside-print-the-country?ref=shop_home_feat_1&frs=1&logging_key=abfd0f130ce633d5fe9ecfa1af1c176a51c46718%3A4399993836" target="_blank">Purchase on Etsy</a>
+  </div>
+
+  <div class="item">
+    <img src="print5.jpg" alt="Champagne Wall">
+    <p>Champagne Wall</p>
+    <a href="https://www.etsy.com/uk/listing/4420308830/champagne-wall-art-luxury-oil-painting?ref=shop_home_feat_4&frs=1&logging_key=cfb935f28cd96d237a681558580523feac42c1a4%3A4420308830" target="_blank">Purchase on Etsy</a>
+  </div>
+
+  <div class="item">
+    <img src="print6.jpg" alt="Winter Landy">
+    <p>Winter Landy</p>
+    <a href="https://www.etsy.com/uk/listing/4438426925/land-rover-defender-style-oil-painting?ref=shop_home_active_2&frs=1&logging_key=7dd2eb807427568f1b087e71e9ce8a836fe3c573%3A4438426925" target="_blank">Purchase on Etsy</a>
+  </div>
+
+  <div class="item">
+    <img src="print7.jpg" alt="Beaters Line">
+    <p>Beaters Line</p>
+    <a href="https://www.etsy.com/uk/listing/4398160040/british-countryside-hunting-print?ref=shop_home_active_5&frs=1&logging_key=ccadc091e6569bf0ec238e3284f02522670eec1a%3A4398160040" target="_blank">Purchase on Etsy</a>
+  </div>
+
+  <div class="item">
+    <img src="print8.jpg" alt="Vintage Martini">
+    <p>Vintage Martini</p>
+    <a href="https://www.etsy.com/uk/listing/4419158246/vintage-martini-print-luxury-bar-decor?ref=shop_home_active_9&frs=1&logging_key=98135550fc49a201d4766a59bbc68df4f94a3bc6%3A4419158246" target="_blank">Purchase on Etsy</a>
+  </div>
+
+  <div class="item">
+    <img src="print9.jpg" alt="The Estate Landy">
+    <p>The Estate Landy</p>
+    <a href="https://www.etsy.com/uk/listing/4425212244/english-country-estate-wall-art-classic?ref=shop_home_active_10&frs=1&logging_key=170ba96679aeebf13146da597d86345c7ad5c810%3A4425212244" target="_blank">Purchase on Etsy</a>
+  </div>
+
+  <div class="item">
+    <img src="print10.jpg" alt="Snow Spaniels">
+    <p>Snow Spaniels</p>
+    <a href="https://www.etsy.com/uk/listing/4410505443/british-countryside-snow-spaniels-print?ref=shop_home_active_11&frs=1&logging_key=8a56bb6eb704c3d2564c77805c6bac728e5c9671%3A4410505443" target="_blank">Purchase on Etsy</a>
+  </div>
+
+  <div class="item">
+    <img src="print11.jpg" alt="Dusk Woods">
+    <p>Dusk Woods</p>
+    <a href="https://www.etsy.com/uk/listing/4397545193/vintage-hunting-scene-print-land-rover?ref=shop_home_active_12&frs=1&crt=1&logging_key=c07f3f37949e4fc901b7cfdd32b198defc1c7d7d%3A4397545193" target="_blank">Purchase on Etsy</a>
+  </div>
+
+  <div class="item">
+    <img src="print12.jpg" alt="Charlie Fox">
+    <p>Charlie Fox</p>
+    <a href="https://www.etsy.com/uk/listing/4423250184/fox-wall-art-running-fox-oil-painting?ref=shop_home_active_13&frs=1&logging_key=3a640f86e6dcfee16fa27a1386b55365bdf53d09%3A4423250184" target="_blank">Purchase on Etsy</a>
+  </div>
+
+  <div class="item">
+    <img src="print13.jpg" alt="Statement Stag">
+    <p>Statement Stag</p>
+    <a href="https://www.etsy.com/uk/listing/4423244939/stag-in-autumn-forest-print-british?ref=shop_home_active_14&frs=1&logging_key=72eb2411bc0a85fbab69b10e3676d7a61f9140d2%3A4423244939" target="_blank">Purchase on Etsy</a>
+  </div>
+
+</div>
+
+</body>
+</html>
