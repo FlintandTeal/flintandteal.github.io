@@ -1,0 +1,143 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flint & Teal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background: #F4F1EC;
+      color: #2B2B2B;
+      font-family: 'Inter', sans-serif;
+      line-height: 1.7;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+      font-family: 'Libre Baskerville', serif;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #4A3F35;
+      font-size: 14px;
+    }
+
+    .hero-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 40px;
+      padding: 80px;
+    }
+
+    .hero-gallery img {
+      width: 100%;
+      border: 12px solid #EFEAE2;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 80px 30px;
+      text-align: center;
+    }
+
+    h1, h2 {
+      font-family: 'Libre Baskerville', serif;
+      font-weight: 400;
+    }
+
+    .divider {
+      width: 60px;
+      height: 1px;
+      background: #B08D57;
+      margin: 30px auto;
+    }
+
+    .reviews blockquote {
+      font-style: italic;
+      margin: 40px auto;
+      max-width: 600px;
+    }
+
+    .cta a {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 14px 32px;
+      border: 1px solid #4A3F35;
+      text-decoration: none;
+      color: #4A3F35;
+      font-family: 'Libre Baskerville', serif;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 13px;
+      padding: 40px;
+      color: #6A6A6A;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Flint & Teal</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="collection.html">The Collection</a>
+  </nav>
+</header>
+
+<!-- PRINTS FIRST -->
+<div class="hero-gallery">
+  <img src="YOUR-PRINT-1.jpg" alt="Flint & Teal Print">
+  <img src="YOUR-PRINT-2.jpg" alt="Flint & Teal Print">
+  <img src="YOUR-PRINT-3.jpg" alt="Flint & Teal Print">
+</div>
+
+<section>
+  <h2>Timeless countryside prints for homes of quiet distinction</h2>
+  <div class="divider"></div>
+  <p>
+    Flint & Teal was founded on an appreciation for the British countryside and the understated elegance of rural life.
+    Each print is designed to belong — never to interrupt — and to reward those who notice such things.
+  </p>
+</section>
+
+<section class="reviews">
+  <h2>The Word of Others</h2>
+  <div class="divider"></div>
+
+  <blockquote>
+    “Absolutely beautiful quality. It looks as though it has always belonged in our home.”
+  </blockquote>
+
+  <blockquote>
+    “Understated, elegant, and perfectly finished.”
+  </blockquote>
+</section>
+
+<section class="cta">
+  <h2>A Considered Invitation</h2>
+  <div class="divider"></div>
+  <a href="collection.html">View the Full Collection</a>
+</section>
+
+<footer>
+  © Flint & Teal
+</footer>
+
+</body>
+</html>
